@@ -1,0 +1,36 @@
+[build]
+  # Build only the admin frontend
+  command = "pnpm --filter admin run build"
+  publish = "app/assets/javascripts/admin/dist"
+  
+  # Set Node.js version
+  environment = { NODE_VERSION = "22.19.0" }
+
+[build.processing]
+  # Disable processing since this is just frontend assets
+  skip_processing = false
+
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+# Headers for static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "max-age=31536000, immutable"
+
+# Redirects (if needed)
+# [[redirects]]
+#   from = "/*"
+#   to = "/index.html"
+#   status = 200
+
+# Environment variables (add as needed)
+[build.environment]
+  EMBER_ENV = "production"
+  NODE_OPTIONS = "--max_old_space_size=4096"
