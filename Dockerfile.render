@@ -1,0 +1,70 @@
+# Discourse Dockerfile for Render
+FROM ruby:3.3.6
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+  postgresql-client \
+  nodejs \
+  npm \
+  git \
+  imagemagick \
+  libxslt1-dev \
+  libcurl4-openssl-dev \
+  libksba8 \
+  libksba-dev \
+  libreadline-dev \
+  libssl-dev \
+  zlib1g-dev \
+  libsnappy-dev \
+  && rm -rf /var/lib/apt/lists/*
+
+# Install pnpm
+RUN npm install -g pnpm@9
+
+# Set up app directory
+WORKDIR /app
+
+# Copy dependency files
+COPY Gemfile Gemfile.lock ./
+COPY package.json pnpm-lock.yaml ./
+
+# Install Ruby dependencies
+RUN bundle config set --local deployment false \
+    && bundle config set --local without development:test \
+    && bundle install --jobs 4
+
+# Install Node dependencies
+RUN pnpm install --frozen-lockfile
+
+# Copy the rest of the application
+COPY . .
+
+# Precompile assets
+RUN RAILS_ENV=production \
+    SKIP_POST_DEPLOYMENT_MIGRATIONS=true \
+    bundle exec rake assets:precompile
+
+# Set up entrypoint
+COPY <<'SCRIPT' /app/docker-entrypoint.sh
+#!/bin/bash
+set -e
+
+# Run database migrations
+if [ "$SKIP_DB_SETUP" != "true" ]; then
+  echo "Running database setup..."
+  bundle exec rake db:create 2>/dev/null || true
+  bundle exec rake db:migrate
+fi
+
+# Execute the main command
+exec "$@"
+SCRIPT
+
+RUN chmod +x /app/docker-entrypoint.sh
+
+# Expose port
+EXPOSE 3000
+
+# Set entrypoint and default command
+ENTRYPOINT ["/app/docker-entrypoint.sh"]
+CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
