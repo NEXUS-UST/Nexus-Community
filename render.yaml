@@ -1,0 +1,50 @@
+services:
+  # Main Discourse Web Service
+  - type: web
+    name: nexus-community
+    runtime: ruby
+    plan: starter  # You can upgrade to standard or pro later
+    buildCommand: |
+      bundle install
+      pnpm install
+      RAILS_ENV=production bundle exec rake assets:precompile
+      RAILS_ENV=production bundle exec rake db:migrate
+    startCommand: bundle exec puma -C config/puma.rb
+    envVars:
+      - key: RAILS_ENV
+        value: production
+      - key: DISCOURSE_HOSTNAME
+        fromService:
+          type: web
+          name: nexus-community
+          property: host
+      - key: DATABASE_URL
+        fromDatabase:
+          name: nexus-community-db
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: nexus-community-redis
+          property: connectionString
+      - key: SECRET_KEY_BASE
+        generateValue: true
+      - key: DISCOURSE_SMTP_ADDRESS
+        value: smtp.gmail.com  # Update with your SMTP provider
+      - key: DISCOURSE_SMTP_PORT
+        value: 587
+      # Add your SMTP credentials as needed:
+      # - key: DISCOURSE_SMTP_USER_NAME
+      #   value: your-email@gmail.com
+      # - key: DISCOURSE_SMTP_PASSWORD
+      #   value: your-app-password
+
+databases:
+  # PostgreSQL Database
+  - name: nexus-community-db
+    databaseName: discourse_production
+    plan: starter  # Free tier, upgrade as needed
+
+  # Redis Cache
+  - name: nexus-community-redis
+    plan: starter  # Free tier, upgrade as needed
