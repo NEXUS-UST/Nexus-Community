@@ -1,136 +1,112 @@
-<a href="https://www.discourse.org/">
+# Nexus UST Community
+
+<a href="https://www.ustnexus.club/">
   <img src="images/discourse-readme-logo.png" width="300px">
 </a>
 
-The online home for your community. 
+The official online community platform for Nexus UST - connecting AI enthusiasts, students, and innovators at the University of Science and Technology.
+
+🌐 **Visit us at:** [www.ustnexus.club](https://www.ustnexus.club)
 
 <img width="1920" height="1135" alt="github-readme" src="https://github.com/user-attachments/assets/abaaf30f-0cfb-4505-a530-6f8e5a43d24b" />
 
-> You can self-host Discourse on your own infrastructure. But if you'd rather skip the setup, maintenance, and server management, we offer official Discourse hosting.
->
-> 👉 Learn more about [Discourse hosting](https://discourse.org/pricing)
+## About Nexus UST Community
 
-Discourse is a 100% open-source community platform for those who want complete control over how and where their site is run.
+This community platform is powered by Discourse, a 100% open-source community platform that gives us complete control over how and where our community site is run. Our platform has been battle-tested for over a decade and continues to evolve to meet our community's needs.
 
-Our platform has been battle-tested for over a decade and continues to evolve to meet users’ needs for a powerful community platform. 
+**As a member of Nexus UST Community, you can:**
 
-**With Discourse, you can:**
+* 💬 **Join AI-focused discussions** on the latest trends, research, and applications in artificial intelligence
+* ⚡️ **Connect in real-time** with fellow students, researchers, and AI enthusiasts through built-in chat
+* 🎨 **Experience a customized platform** tailored for the UST community with specialized themes and features
+* 🤖 **Engage with AI-powered features** including chatbots and advanced discussion tools
+* 🎓 **Access educational resources** and participate in workshops, seminars, and study groups
+* 🚀 **Collaborate on projects** and share your AI innovations with the community
 
-* 💬 **Create discussion topics** to foster meaningful conversations.
+## Community Guidelines
 
-* ⚡️ **Connect in real-time** with built-in chat.
-  
-* 🎨 **Customize your experience** with an ever-growing selection of official and community themes.
+Nexus UST Community is built for:
+- **Students** at University of Science and Technology interested in AI
+- **Researchers** working on AI-related projects
+- **Industry professionals** sharing insights and opportunities
+- **Enthusiasts** passionate about artificial intelligence and emerging technologies
 
-* 🤖 **Enhance your community** with plugins, from chatbots powered by [Discourse AI](https://meta.discourse.org/t/discourse-ai/259214) to advanced tools like SQL analysis with the [Data Explorer](https://meta.discourse.org/t/discourse-data-explorer/32566) plugin.
+## Getting Involved
 
-To learn more, visit [discourse.org](https://www.discourse.org/) and join our support community at [meta.discourse.org](https://meta.discourse.org/).
+1. **Join the Discussion**: Visit [www.ustnexus.club](https://www.ustnexus.club) to create your account
+2. **Introduce Yourself**: Share your background and AI interests in our Welcome section
+3. **Explore Topics**: Browse discussions on machine learning, robotics, data science, and more
+4. **Contribute**: Share your projects, ask questions, and help fellow community members
 
+## Technical Information
 
-Here are just a few of the incredible communities using Discourse: 
+This platform is built on Discourse with the following technology stack:
 
-![discourse-communities](https://github.com/user-attachments/assets/a79b5d56-7748-4f6d-8a2d-daa950366fcc)
+- [Ruby on Rails](https://github.com/rails/rails) — Back end API responding RESTfully in JSON
+- [Ember.js](https://github.com/emberjs/ember.js) — Front end application communicating with the Rails API
+- [PostgreSQL](https://www.postgresql.org/) — Primary data store
+- [Redis](https://redis.io/) — Caching and transient data
+- [BrowserStack](https://www.browserstack.com/) — Cross-browser testing
 
-👉 [Discover more communities using Discourse](https://discover.discourse.org/)
+## Development & Contributions
 
+For developers interested in contributing to the platform:
 
-## Development
-
-To get your environment set up, follow one of the setup guides:
-
+### Environment Setup
+Follow one of the setup guides:
 - [Docker / Dev Container](https://meta.discourse.org/t/336366)
 - [macOS](https://meta.discourse.org/t/15772)
 - [Ubuntu/Debian](https://meta.discourse.org/t/14727)
 - [Windows](https://meta.discourse.org/t/75149)
 
-Before you get started, ensure you have the following minimum versions: [Ruby 3.3+](https://www.ruby-lang.org/en/downloads/), [PostgreSQL 13](https://www.postgresql.org/download/), [Redis 7](https://redis.io/download).
+**Requirements:** [Ruby 3.3+](https://www.ruby-lang.org/en/downloads/), [PostgreSQL 13](https://www.postgresql.org/download/), [Redis 7](https://redis.io/download)
 
-For more information, check out [the Developer Documentation](https://meta.discourse.org/c/documentation/developer-guides/56).
+### Contributing Guidelines
+1. Read the complete mission statements and community guidelines
+2. Review [CONTRIBUTING.md](CONTRIBUTING.md) for technical contribution process
+3. Always collaborate with mutual respect
+4. Focus on improvements that benefit the UST AI community
 
-## Setting up Discourse
+## Support & Resources
 
-If you want to set up a Discourse forum for production use, see our [**Discourse Install Guide**](docs/INSTALL.md).
+- **Community Support**: Post questions in our Help & Support category
+- **Technical Issues**: Report bugs through our platform's feedback system
+- **Developer Documentation**: [Discourse Developer Guides](https://meta.discourse.org/c/documentation/developer-guides/56)
+- **General Discourse Info**: [discourse.org](https://www.discourse.org/)
 
-If you're looking for official hosting, see [discourse.org/pricing](https://www.discourse.org/pricing/).
+## Browser Support
 
-## Requirements
+Nexus UST Community supports the latest, stable releases of all major browsers:
 
-Discourse supports the **latest, stable releases** of all major browsers and platforms:
+| Browsers        | Tablets | Phones  |
+| --------------- | ------- | ------- |
+| Apple Safari    | iPadOS  | iOS     |
+| Google Chrome   | Android | Android |
+| Microsoft Edge  |         |         |
+| Mozilla Firefox |         |         |
 
-| Browsers              | Tablets      | Phones       |
-| --------------------- | ------------ | ------------ |
-| Apple Safari          | iPadOS       | iOS          |
-| Google Chrome         | Android      | Android      |
-| Microsoft Edge        |              |              |
-| Mozilla Firefox       |              |              |
+## Security & Privacy
 
-Additionally, we aim to support Safari on iOS 16.4+.
+We take security seriously in our community platform. All code is open source and peer reviewed. Please read our security guidelines for reporting any security issues.
 
-## Built With
+Security updates are documented in our release notes for each version.
 
-- [Ruby on Rails](https://github.com/rails/rails) &mdash; Our back end API is a Rails app. It responds to requests RESTfully in JSON.
-- [Ember.js](https://github.com/emberjs/ember.js) &mdash; Our front end is an Ember.js app that communicates with the Rails API.
-- [PostgreSQL](https://www.postgresql.org/) &mdash; Our main data store is in Postgres.
-- [Redis](https://redis.io/) &mdash; We use Redis as a cache and for transient data.
-- [BrowserStack](https://www.browserstack.com/) &mdash; We use BrowserStack to test on real devices and browsers.
-
-Plus *lots* of Ruby Gems, a complete list of which is at [/main/Gemfile](https://github.com/discourse/discourse/blob/main/Gemfile).
-
-## Contributing
-
-[![Build Status](https://github.com/discourse/discourse/actions/workflows/tests.yml/badge.svg)](https://github.com/discourse/discourse/actions)
-
-Discourse is **100% free** and **open source**. We encourage and support an active, healthy community that
-accepts contributions from the public &ndash; including you!
-
-Before contributing to Discourse:
-
-1. Please read the complete mission statements on [**discourse.org**](https://www.discourse.org). Yes we actually believe this stuff; you should too.
-2. Read and sign the [**Electronic Discourse Forums Contribution License Agreement**](https://www.discourse.org/cla).
-3. Dig into [**CONTRIBUTING.MD**](CONTRIBUTING.md), which covers submitting bugs, requesting new features, preparing your code for a pull request, etc.
-4. Always strive to collaborate [with mutual respect](https://github.com/discourse/discourse/blob/main/docs/code-of-conduct.md).
-5. Not sure what to work on? [**We've got some ideas.**](https://meta.discourse.org/t/so-you-want-to-help-out-with-discourse/3823)
-
-
-We look forward to seeing your pull requests!
-
-## Security
-
-We take security very seriously at Discourse; all our code is 100% open source and peer reviewed. Please read [our security guide](https://github.com/discourse/discourse/blob/main/docs/SECURITY.md) for an overview of security measures in Discourse, or if you wish to report a security issue.
-
-Security fixes are listed in the [release notes](https://meta.discourse.org/tags/c/announcements/67/release-notes) for each version.
-
-## The Discourse Team
-
-The original Discourse code contributors can be found in [**AUTHORS.MD**](docs/AUTHORS.md). For a complete list of the many individuals that contributed to the design and implementation of Discourse, please refer to [the official Discourse blog](https://blog.discourse.org/2013/02/the-discourse-team/) and [GitHub's list of contributors](https://github.com/discourse/discourse/contributors).
-
-## Copyright / License
+## License
 
 Copyright 2014 - 2025 Civilized Discourse Construction Kit, Inc.
 
-Licensed under the GNU General Public License Version 2.0 (or later);
-you may not use this work except in compliance with the License.
-You may obtain a copy of the License in the LICENSE file, or at:
+Licensed under the GNU General Public License Version 2.0 (or later). See the [LICENSE](LICENSE) file for details.
 
-   https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+Discourse logo and "Discourse Forum" ® are trademarks of Civilized Discourse Construction Kit, Inc.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+## Contact
 
-Discourse logo and “Discourse Forum” ®, Civilized Discourse Construction Kit, Inc.
+- **Website**: [www.ustnexus.club](https://www.ustnexus.club)
+- **University**: University of Science and Technology
+- **Community**: Nexus UST - AI Innovation Hub
 
-## Accessibility
+---
 
-To guide our ongoing effort to build accessible software we follow the [W3C’s Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). If you'd like to report an accessibility issue that makes it difficult for you to use Discourse, email accessibility@discourse.org. For more information visit [discourse.org/accessibility](https://discourse.org/accessibility).
+**Join us in building the future of AI at UST!** 🤖✨
 
-## Dedication
-
-Discourse is built with [love, Internet style.](https://www.youtube.com/watch?v=Xe1TZaElTAs)
-
-For over a decade, our [amazing community](https://meta.discourse.org/) has helped shape Discourse into what it is today. Your support, feedback, and contributions have been invaluable in making Discourse a powerful and versatile platform.
-
-We’re deeply grateful for every feature request, bug report, and discussion that has driven Discourse forward. Thank you for being a part of this journey—we couldn’t have done it without you!
-
+*Nexus UST Community - Where AI Innovation Meets Academic Excellence*
