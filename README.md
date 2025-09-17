@@ -1,91 +1,82 @@
-# Nexus Community Platform
+# NEXUS Community Platform
 
-<img src="./app/assets/images/logo.png" width="200px" alt="Nexus Community">
+<img src="../../nexus-logo.jpg" width="200px" alt="NEXUS Logo"> <img src="images/discourse-readme-logo.png" width="200px" alt="Powered by Discourse">
 
 ## About
 
-**Nexus Community** is the official online discussion platform for the **Nexus AI Club** at the University of Science and Technology (UST). This platform serves as the central hub for AI enthusiasts, students, researchers, and innovators to connect, collaborate, and share knowledge.
+**NEXUS Community** is the official discussion platform for NEXUS, a dynamic student organization at the University of St. Thomas in St. Paul, Minnesota. NEXUS is dedicated to connecting innovation, technology, and excellence across the university community.
 
-🌐 **Visit:** [www.ustnexus.club](https://www.ustnexus.club)
+**Visit:** [ustnexus.club](https://ustnexus.club)
 
-## What is Nexus?
+## What is NEXUS?
 
-Nexus is UST's premier AI club dedicated to fostering innovation, learning, and collaboration in artificial intelligence. Our community platform brings together:
+NEXUS represents the intersection of possibility and action at the University of St. Thomas. We are a student organization that envisions a community where innovative thinking is encouraged, technology serves as a bridge to new opportunities, and excellence is the standard by which we measure our impact.
 
-- **Students** exploring AI and machine learning
-- **Researchers** working on cutting-edge AI projects  
-- **Industry professionals** sharing real-world insights
-- **Enthusiasts** passionate about the future of technology
+**Our Community Includes:**
+- Students passionate about innovation and technology
+- Faculty members supporting student-led initiatives  
+- Industry professionals sharing real-world insights
+- Alumni contributing to ongoing projects and mentorship
 
-## Platform Features
+## Platform Overview
 
-This community platform is powered by **Discourse** - the world's leading open-source discussion platform trusted by thousands of communities worldwide. By forking the official Discourse repository, we've gained access to enterprise-grade features that make online communities thrive:
+This community platform is powered by **Discourse**, the world's most trusted open-source discussion platform. We forked the official Discourse repository to create a customized community space that serves our specific needs at the University of St. Thomas.
 
-### 🚀 **Powerful Discussion Engine**
-- **Threaded conversations** that keep discussions organized and meaningful
-- **Real-time notifications** so you never miss important updates
-- **Advanced search** to find exactly what you're looking for across all discussions
-- **Mobile-optimized** interface for seamless participation anywhere
+**Why Discourse?**
 
-### 💬 **Built for Engagement** 
-- **Live chat integration** for instant communication
-- **Emoji reactions** and rich formatting to express yourself
-- **User badges and trust levels** that reward active community participation
-- **Topic categories** specifically organized for AI discussions, projects, and resources
+Discourse is the gold standard for online communities, trusted by thousands of organizations worldwide. It provides enterprise-grade features that make meaningful discussions possible:
 
-### 🎨 **Customizable Experience**
-- **Dark/light themes** and personalized preferences
-- **Email digest options** to stay updated on your schedule
-- **Notification controls** so you only hear about what matters to you
-- **Custom AI-focused categories** tailored for our community needs
+- **Structured Conversations**: Keep discussions organized with threaded replies and topic categories
+- **Real-time Engagement**: Live notifications and instant messaging capabilities
+- **Advanced Moderation**: Sophisticated tools to maintain a productive learning environment
+- **Mobile Optimized**: Seamless experience across all devices and platforms
+- **Search & Discovery**: Powerful search to find relevant discussions and resources
+- **User Trust System**: Gamified participation that encourages quality contributions
+- **Customizable Interface**: Tailored design and features for our university community
 
-### 🛡️ **Enterprise Security**
-- **Robust moderation tools** to maintain a positive learning environment
-- **Spam protection** and advanced security measures
-- **Privacy controls** giving you complete control over your data
-- **SSO integration** for seamless university authentication
+**Community Features:**
 
-### 🤖 **AI-Enhanced Features**
-- **Discourse AI plugin** for intelligent content suggestions and moderation
-- **Automated topic summarization** to quickly catch up on long discussions
-- **Smart notifications** that surface the most relevant content
-- **Advanced analytics** to understand community engagement and growth
-
-## Why Discourse?
-
-We chose to fork Discourse because it's:
-- ✅ **100% Open Source** - Complete transparency and control
-- ✅ **Battle-tested** - Powering major communities for over a decade  
-- ✅ **Scalable** - From small study groups to thousands of active members
-- ✅ **Feature-rich** - Everything needed for a thriving online community
-- ✅ **Customizable** - Easily adapted for our specific AI-focused needs
+- Discussion categories for innovation projects, networking, and skill development
+- Event coordination and announcement capabilities
+- Resource sharing and collaborative project spaces
+- Integration with university systems and authentication
+- Private messaging and group communication tools
+- Rich media support for presentations, documents, and project showcases
 
 ## Getting Started
 
-1. **Join** at [www.ustnexus.club](https://www.ustnexus.club)
-2. **Introduce yourself** in the Welcome section
-3. **Explore categories** like AI Research, Project Showcase, Study Groups
-4. **Start participating** by asking questions, sharing insights, or helping others
+1. Visit [ustnexus.club](https://ustnexus.club) to learn about NEXUS
+2. Join our community discussions on the platform
+3. Introduce yourself and share your interests
+4. Participate in ongoing conversations about innovation and technology
+5. Contribute to projects and connect with like-minded individuals
+
+## NEXUS Mission
+
+**Innovation Hub**: A dynamic space where creative minds converge to develop groundbreaking solutions
+
+**Collaborative Network**: Fostering connections between students, faculty, and industry professionals
+
+**Excellence Driven**: Committed to the highest standards of quality, integrity, and achievement
 
 ## Technical Details
 
-This platform is built on:
-- **Ruby on Rails** backend with RESTful JSON API
-- **Ember.js** frontend for dynamic user interactions
-- **PostgreSQL** for reliable data storage  
-- **Redis** for caching and real-time features
+This platform runs on:
+- **Ruby on Rails** backend with JSON API
+- **Ember.js** frontend application
+- **PostgreSQL** database
+- **Redis** caching and real-time features
 - **Responsive design** supporting all modern browsers
 
-## Community Guidelines
+## Contact
 
-Our platform promotes:
-- 🎓 **Academic excellence** in AI education and research
-- 🤝 **Collaborative learning** and knowledge sharing
-- 💡 **Innovation** in artificial intelligence applications
-- 🌟 **Respectful discourse** in all community interactions
+- **Email**: nexus@everjust.org
+- **Location**: University of St. Thomas, St. Paul, Minnesota
+- **Website**: [ustnexus.club](https://ustnexus.club)
 
 ---
 
-**Join the Nexus Community today and be part of UST's AI innovation movement!**
+*Forked from [discourse/discourse](https://github.com/discourse/discourse) - The platform powering the world's best communities*
 
-*Forked from [discourse/discourse](https://github.com/discourse/discourse) - The platform that powers the world's best communities.*
+**NEXUS - University of St. Thomas**  
+*Connecting Innovation, Technology, and Excellence*
