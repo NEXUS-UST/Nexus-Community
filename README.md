@@ -1,7 +1,5 @@
 # NEXUS Community Platform
 
-<img src="../../nexus-logo.jpg" width="200px" alt="NEXUS Logo"> <img src="images/discourse-readme-logo.png" width="200px" alt="Powered by Discourse">
-
 ## About
 
 **NEXUS Community** is the official discussion platform for NEXUS, a dynamic student organization at the University of St. Thomas in St. Paul, Minnesota. NEXUS is dedicated to connecting innovation, technology, and excellence across the university community.
