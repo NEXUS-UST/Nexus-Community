@@ -1,112 +1,91 @@
-# Nexus UST Community
+# Nexus Community Platform
 
-<a href="https://www.ustnexus.club/">
-  <img src="images/discourse-readme-logo.png" width="300px">
-</a>
+<img src="./app/assets/images/logo.png" width="200px" alt="Nexus Community">
 
-The official online community platform for Nexus UST - connecting AI enthusiasts, students, and innovators at the University of Science and Technology.
+## About
 
-🌐 **Visit us at:** [www.ustnexus.club](https://www.ustnexus.club)
+**Nexus Community** is the official online discussion platform for the **Nexus AI Club** at the University of Science and Technology (UST). This platform serves as the central hub for AI enthusiasts, students, researchers, and innovators to connect, collaborate, and share knowledge.
 
-<img width="1920" height="1135" alt="github-readme" src="https://github.com/user-attachments/assets/abaaf30f-0cfb-4505-a530-6f8e5a43d24b" />
+🌐 **Visit:** [www.ustnexus.club](https://www.ustnexus.club)
 
-## About Nexus UST Community
+## What is Nexus?
 
-This community platform is powered by Discourse, a 100% open-source community platform that gives us complete control over how and where our community site is run. Our platform has been battle-tested for over a decade and continues to evolve to meet our community's needs.
+Nexus is UST's premier AI club dedicated to fostering innovation, learning, and collaboration in artificial intelligence. Our community platform brings together:
 
-**As a member of Nexus UST Community, you can:**
+- **Students** exploring AI and machine learning
+- **Researchers** working on cutting-edge AI projects  
+- **Industry professionals** sharing real-world insights
+- **Enthusiasts** passionate about the future of technology
 
-* 💬 **Join AI-focused discussions** on the latest trends, research, and applications in artificial intelligence
-* ⚡️ **Connect in real-time** with fellow students, researchers, and AI enthusiasts through built-in chat
-* 🎨 **Experience a customized platform** tailored for the UST community with specialized themes and features
-* 🤖 **Engage with AI-powered features** including chatbots and advanced discussion tools
-* 🎓 **Access educational resources** and participate in workshops, seminars, and study groups
-* 🚀 **Collaborate on projects** and share your AI innovations with the community
+## Platform Features
+
+This community platform is powered by **Discourse** - the world's leading open-source discussion platform trusted by thousands of communities worldwide. By forking the official Discourse repository, we've gained access to enterprise-grade features that make online communities thrive:
+
+### 🚀 **Powerful Discussion Engine**
+- **Threaded conversations** that keep discussions organized and meaningful
+- **Real-time notifications** so you never miss important updates
+- **Advanced search** to find exactly what you're looking for across all discussions
+- **Mobile-optimized** interface for seamless participation anywhere
+
+### 💬 **Built for Engagement** 
+- **Live chat integration** for instant communication
+- **Emoji reactions** and rich formatting to express yourself
+- **User badges and trust levels** that reward active community participation
+- **Topic categories** specifically organized for AI discussions, projects, and resources
+
+### 🎨 **Customizable Experience**
+- **Dark/light themes** and personalized preferences
+- **Email digest options** to stay updated on your schedule
+- **Notification controls** so you only hear about what matters to you
+- **Custom AI-focused categories** tailored for our community needs
+
+### 🛡️ **Enterprise Security**
+- **Robust moderation tools** to maintain a positive learning environment
+- **Spam protection** and advanced security measures
+- **Privacy controls** giving you complete control over your data
+- **SSO integration** for seamless university authentication
+
+### 🤖 **AI-Enhanced Features**
+- **Discourse AI plugin** for intelligent content suggestions and moderation
+- **Automated topic summarization** to quickly catch up on long discussions
+- **Smart notifications** that surface the most relevant content
+- **Advanced analytics** to understand community engagement and growth
+
+## Why Discourse?
+
+We chose to fork Discourse because it's:
+- ✅ **100% Open Source** - Complete transparency and control
+- ✅ **Battle-tested** - Powering major communities for over a decade  
+- ✅ **Scalable** - From small study groups to thousands of active members
+- ✅ **Feature-rich** - Everything needed for a thriving online community
+- ✅ **Customizable** - Easily adapted for our specific AI-focused needs
+
+## Getting Started
+
+1. **Join** at [www.ustnexus.club](https://www.ustnexus.club)
+2. **Introduce yourself** in the Welcome section
+3. **Explore categories** like AI Research, Project Showcase, Study Groups
+4. **Start participating** by asking questions, sharing insights, or helping others
+
+## Technical Details
+
+This platform is built on:
+- **Ruby on Rails** backend with RESTful JSON API
+- **Ember.js** frontend for dynamic user interactions
+- **PostgreSQL** for reliable data storage  
+- **Redis** for caching and real-time features
+- **Responsive design** supporting all modern browsers
 
 ## Community Guidelines
 
-Nexus UST Community is built for:
-- **Students** at University of Science and Technology interested in AI
-- **Researchers** working on AI-related projects
-- **Industry professionals** sharing insights and opportunities
-- **Enthusiasts** passionate about artificial intelligence and emerging technologies
-
-## Getting Involved
-
-1. **Join the Discussion**: Visit [www.ustnexus.club](https://www.ustnexus.club) to create your account
-2. **Introduce Yourself**: Share your background and AI interests in our Welcome section
-3. **Explore Topics**: Browse discussions on machine learning, robotics, data science, and more
-4. **Contribute**: Share your projects, ask questions, and help fellow community members
-
-## Technical Information
-
-This platform is built on Discourse with the following technology stack:
-
-- [Ruby on Rails](https://github.com/rails/rails) — Back end API responding RESTfully in JSON
-- [Ember.js](https://github.com/emberjs/ember.js) — Front end application communicating with the Rails API
-- [PostgreSQL](https://www.postgresql.org/) — Primary data store
-- [Redis](https://redis.io/) — Caching and transient data
-- [BrowserStack](https://www.browserstack.com/) — Cross-browser testing
-
-## Development & Contributions
-
-For developers interested in contributing to the platform:
-
-### Environment Setup
-Follow one of the setup guides:
-- [Docker / Dev Container](https://meta.discourse.org/t/336366)
-- [macOS](https://meta.discourse.org/t/15772)
-- [Ubuntu/Debian](https://meta.discourse.org/t/14727)
-- [Windows](https://meta.discourse.org/t/75149)
-
-**Requirements:** [Ruby 3.3+](https://www.ruby-lang.org/en/downloads/), [PostgreSQL 13](https://www.postgresql.org/download/), [Redis 7](https://redis.io/download)
-
-### Contributing Guidelines
-1. Read the complete mission statements and community guidelines
-2. Review [CONTRIBUTING.md](CONTRIBUTING.md) for technical contribution process
-3. Always collaborate with mutual respect
-4. Focus on improvements that benefit the UST AI community
-
-## Support & Resources
-
-- **Community Support**: Post questions in our Help & Support category
-- **Technical Issues**: Report bugs through our platform's feedback system
-- **Developer Documentation**: [Discourse Developer Guides](https://meta.discourse.org/c/documentation/developer-guides/56)
-- **General Discourse Info**: [discourse.org](https://www.discourse.org/)
-
-## Browser Support
-
-Nexus UST Community supports the latest, stable releases of all major browsers:
-
-| Browsers        | Tablets | Phones  |
-| --------------- | ------- | ------- |
-| Apple Safari    | iPadOS  | iOS     |
-| Google Chrome   | Android | Android |
-| Microsoft Edge  |         |         |
-| Mozilla Firefox |         |         |
-
-## Security & Privacy
-
-We take security seriously in our community platform. All code is open source and peer reviewed. Please read our security guidelines for reporting any security issues.
-
-Security updates are documented in our release notes for each version.
-
-## License
-
-Copyright 2014 - 2025 Civilized Discourse Construction Kit, Inc.
-
-Licensed under the GNU General Public License Version 2.0 (or later). See the [LICENSE](LICENSE) file for details.
-
-Discourse logo and "Discourse Forum" ® are trademarks of Civilized Discourse Construction Kit, Inc.
-
-## Contact
-
-- **Website**: [www.ustnexus.club](https://www.ustnexus.club)
-- **University**: University of Science and Technology
-- **Community**: Nexus UST - AI Innovation Hub
+Our platform promotes:
+- 🎓 **Academic excellence** in AI education and research
+- 🤝 **Collaborative learning** and knowledge sharing
+- 💡 **Innovation** in artificial intelligence applications
+- 🌟 **Respectful discourse** in all community interactions
 
 ---
 
-**Join us in building the future of AI at UST!** 🤖✨
+**Join the Nexus Community today and be part of UST's AI innovation movement!**
 
-*Nexus UST Community - Where AI Innovation Meets Academic Excellence*
+*Forked from [discourse/discourse](https://github.com/discourse/discourse) - The platform that powers the world's best communities.*
