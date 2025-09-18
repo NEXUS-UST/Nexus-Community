@@ -139,6 +139,9 @@ importers:
       '@ember/string':
         specifier: ^4.0.1
         version: 4.0.1
+      ember-auto-import:
+        specifier: ^2.10.0
+        version: 2.10.0(@glint/template@1.6.0-alpha.2)(webpack@5.101.3(@swc/core@1.13.5)(esbuild@0.25.9))
       ember-cli-babel:
         specifier: ^8.2.0
         version: 8.2.0(@babel/core@7.28.4)
